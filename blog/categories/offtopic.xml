@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[Christopher Silva]]></title>
+    <link href="/blog/categories/offtopic.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2015-08-15T21:46:27+00:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Hummm ... first of all!]]></title>
+            <link href="/blog/2015/08/15/hummm-first-of-all"/>
+            <updated>2015-08-15T00:00:00+00:00</updated>
+            <id>/blog/2015/08/15/hummm-first-of-all</id>
+            <content type="html"><![CDATA[<p>Well, how can I start?</p>
+
+<p>First of all, sorry for my english! If you don't understand something, don't worry because I have my own grammar :P</p>
+
+<p>Now you accept my apology and motivated by some friends and other developers who inspired me, I decided to create this place to share my ideas, 
+experiments, projects, tutorials and some other stuffs.</p>
+
+<p>Thank you for reading and let me know if you have some question.</p>
+
+<p>Cheers ...</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[We are IN! (Hello worl default)]]></title>
+            <link href="/blog/2015/05/31/hello-world"/>
+            <updated>2015-05-31T00:00:00+00:00</updated>
+            <id>/blog/2015/05/31/hello-world</id>
+            <content type="html"><![CDATA[<p>You're all programmers, right? And you're writing code snippets on your Sculpin
+powered blog? Yeah. So you want some highlighting with your static site generation?
+Here you go!</p>
+
+<pre><code>namespace Foo;
+
+/**
+ * Awesome Contrived Example.
+ */
+class Bar implements BarInterface
+{
+    private $baz;
+
+    public function __construct(BazInterface $baz)
+    {
+        $this-&gt;baz = $baz;
+    }
+
+    public function doIt()
+    {
+        return $this-&gt;baz-&gt;do('it');
+    }
+}
+</code></pre>
+
+<p>You can also use <a href="http://michelf.ca/projects/php-markdown/extra/#fenced-code-blocks">fenced code blocks</a> with a syntax declaration at the top.
+You can use either <code>~</code> or <code>`</code> to mark them.</p>
+
+<pre><code class="php">if ($fencedCodeBlock-&gt;syntax !== 'PHP') {
+    throw new UnexpectedValueException("wat");
+}
+</code></pre>
+
+<p>Like this addition to the skeleton? You can thank for <a href="https://github.com/Pawka">@Pawka</a>
+for suggesting it. :)</p>
+]]></content>
+        </entry>
+    </feed>
