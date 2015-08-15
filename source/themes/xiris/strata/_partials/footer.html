@@ -1,0 +1,21 @@
+<ul class="icons">
+    {% for key, social in site.socialsmedia %}
+        <li>
+            <a href="{{ social.link }}" class="icon {{ social.icon }} fa-en">
+                <span class="label">{{ social.label }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+<ul class="copyright">
+    <li>&copy; {{ "now"|date("Y") }} {{ site.authors.name }}</li>
+    <li>
+        Powered by: <a href="http://sculpin.io" target="_blank">Sculpin</a> and
+        <a href="http://html5up.net" target="_blank">HTML5 UP</a>
+    </li>
+</ul>
+<div class="github-fork-ribbon-wrapper left-bottom">
+    <div class="github-fork-ribbon">
+        <a href="https://github.com/xiris">Fork me on GitHub</a>
+    </div>
+</div>
